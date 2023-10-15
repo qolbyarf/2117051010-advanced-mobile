@@ -62,7 +62,9 @@ class Onboardingscreen extends StatelessWidget {
                         foregroundColor:
                             MaterialStateProperty.all<Color>(Colors.white),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/SignUp');
+                      },
                       child: Text(
                         "Get Started",
                         style: TextStyle(
